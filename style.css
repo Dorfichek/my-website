@@ -18,3 +18,31 @@ body {
     color:white;
     transition: all 2s ease-in;
 }
+
+nav{
+    position: relative;
+    top:20px;
+}
+
+h1{
+    position: relative;
+    top:15px;
+    text-align: center;
+}
+
+.link-nav{
+    text-decoration: none;
+    border: 3px solid blue;
+    border-radius: 7px;
+    padding: 5px;
+    position:relative;
+    top: 5px;
+    color:black;
+}
+
+.link-nav:hover{
+    border: 3px solid black;
+    background-color: black;
+    color:white;
+    transition: all 2s ease-in;
+}
